@@ -1,0 +1,27 @@
+apply plugin: 'groovy'
+
+repositories {
+   mavenCentral()
+}
+
+dependencies {
+   compile 'org.codehaus.groovy:groovy-all:2.5.4'
+   testCompile 'junit:junit:4.12'
+   
+   // https://mvnrepository.com/artifact/joda-time/joda-time
+   compile group: 'joda-time', name: 'joda-time', version: '2.10.3'
+   
+   // https://mvnrepository.com/artifact/mysql/mysql-connector-java
+   compile group: 'mysql', name: 'mysql-connector-java', version: '5.1.30'
+   
+   // https://mvnrepository.com/artifact/org.codehaus.groovy.modules.http-builder/http-builder
+   compile group: 'org.codehaus.groovy.modules.http-builder', name: 'http-builder', version: '0.7.1'
+   
+   // https://mvnrepository.com/artifact/org.apache.httpcomponents/httpclient
+   compile group: 'org.apache.httpcomponents', name: 'httpclient', version: '4.5.9'
+   
+   
+   
+   
+}
+
